@@ -1,0 +1,126 @@
+<table>
+<tr>
+<th>ID</th>
+<th>Name</th>
+<th>Email ID</th>
+<th>Phone</th>
+<th>Website</th>
+<th>Company Name</th>
+
+
+</tr>
+
+
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <app-employees-list></app-employees-list> -->
+    
+<!-- <div class="table table-bordered">
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Employee Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">UserName</th>
+            <th scope="col">Company Name</th>
+           <th scope="col">Phone Number</th>
+            <th scope="col">Email Id</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td><a class="navbar-brand" href="view-employee">
+                <button onclick="display()" type="button" class="btn btn-outline-primary">View Profile</button></a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="navbar-brand" href="update-employee">
+                <button type="button" class="btn btn-outline-success">Edit</button>
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="navbar-brand" href="delete-employee">
+                <button type="button" class="btn btn-outline-danger">Delete</button></a></td>           
+          </tr>
+        </tbody>
+      </table>
+  </div>  
+    
+    
+  
+  
+  <body>
+    <div class="text-center mt-5">
+      <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">Employee Id</th>
+            <th scope="col">Name</th>
+            <th scope="col">UserName</th>
+            <th scope="col">Company Name</th>
+           <th scope="col">Phone Number</th>
+            <th scope="col">Email Id</th>
+            <th scope="col">Action</th>
+          </tr>
+        </thead >
+        <tbody id="result">
+        </tbody >
+          </table>
+    </div>
+  </body>
+  <script>
+    var req = new XMLHttpRequest()
+    req.open('get','https://jsonplaceholder.typicode.com/users')
+    req.send()
+   // console.log(req.readyState);
+    req.onreadystatechange =()=>{
+      console.log(req.readyState);
+    if(req.readyState==4)
+  {
+  if(req.status>=200 && req.status<300){
+    let users=JSON.parse(req.responseText)
+    console.log(users);
+  }
+  }
+  else{
+    console.log("Error");
+  }
+}
+  </script>
+  </html>-->
